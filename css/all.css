@@ -59,6 +59,8 @@ color:white;
     margin: 0 auto;
     max-width: 1296px;
 }
+
+/*footer*/
 .service{
     padding: 158px 0;
     background: #000;
@@ -132,8 +134,6 @@ color:white;
     display: flex;
     align-items: center;
     gap: 20px;
-    /*position: absolute;
-    left:223px;*/
 }
 .social a{
     color:white;
@@ -158,8 +158,11 @@ color:white;
         font-size: 38px;
         text-align: center;
     }
+    .copyright{
+        margin-right: 30px;
+    }
 }
-@media (max-width:375px){
+@media (max-width:576px){
     .service-h3{
         font-size: 32px;
         text-align: center;
@@ -175,10 +178,6 @@ color:white;
     }
     .social{
         flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    .copyright{
-        margin: 0;
     }
     .connect{
         order: 2;
